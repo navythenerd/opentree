@@ -1,5 +1,5 @@
 # OpenTree
-OpenTree is an easy to configure, deploy and self-hosted LinkTree alternative written in go.
+OpenTree is an easy to configure, deployable and self-hosted LinkTree alternative written in go.
 
 ## Configuration
 OpenTree uses an easy to compose JSON config file. Have a look at the provided `config.json`.
