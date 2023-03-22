@@ -1,5 +1,5 @@
 # OpenTree
-OpenTree is a easy to configure, deploy and self-hosted LinkTree alternative written in go.
+OpenTree is an easy to configure, deploy and self-hosted LinkTree alternative written in go.
 
 ## Configuration
 OpenTree uses an easy to compose JSON config file. Have a look at the provided `config.json`.
@@ -43,7 +43,7 @@ The go backend uses the `template/html` package to parse and execute the given t
 
 ## CSS Framework & Further Theming
 Special thanks to the Bulma devs for providing the base css framework (https://github.com/jgthms/bulma).
-Have a look at their documentation for fully customization.
+Have a look at their documentation for full customization.
 
 ## Deployment
 You can use the provided Dockerfile to deploy the application. If you have changed the default port `8000`, make sure to expose the right port.
