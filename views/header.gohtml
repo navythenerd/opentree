@@ -1,0 +1,22 @@
+{{ define "header" }}
+<section class="hero is-primary has-gradient">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            {{ if .Avatar }}
+            <figure class="image is-128x128 is-inline-block">
+                <img class="is-rounded is-128x128" src="/static/img/avatar.jpg">
+            </figure>
+            {{ end }}
+
+            <h1 class="title is-4">{{ .Nametag }}</h1>
+            <h2 class="subtitle is-5">{{ .Description }}</h2>
+
+            {{ if .Website.Enabled }}
+            <div>
+                <a href="{{ .Website.Url }}" class="text-link" target="_blank">{{ .Website.Title }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

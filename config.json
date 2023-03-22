@@ -1,0 +1,42 @@
+{
+    "port": 8000,
+    "address": "",
+    "views": "./views",
+    "assets": "./static",
+    "title": "Links",
+    "description": "Every important link to stay up-to-date!",
+    "nametag": "@NavyTheNerd",
+    "avatar": true,
+    "website": {
+        "enabled": true,
+        "title": "Website",
+        "url": "http://www.navythenerd.com"
+    },
+    "links": [
+        {
+            "enabled": true,
+            "title": "YouTube",
+            "url": "https://youtube.com/@NavyTheNerd"
+        },
+        {
+            "enabled": true,
+            "title": "Twitter",
+            "url": "https://twitter.com/navythenerd"
+        },
+        {
+            "enabled": true,
+            "title": "Instagram",
+            "url": "https://www.instagram.com/navythenerd"
+        },
+        {
+            "enabled": true,
+            "title": "TikTok",
+            "url": "https://www.tiktok.com/@navythenerd"
+        },
+        {
+            "enabled": true,
+            "title": "Twitch",
+            "url": "https://twitch.tv/navythenerd"
+        }
+    ]
+}

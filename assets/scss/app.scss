@@ -1,0 +1,20 @@
+@use "themes/default" as theme;
+
+@use "node_modules/bulma/bulma" with(
+  $primary: theme.$primary,
+  $link: theme.$link
+);
+
+@use "header" with(
+  $hero-gradient-angle: theme.$header-gradient-angle,
+  $hero-gradient-start: theme.$header-gradient-start,
+  $hero-gradient-end: theme.$header-gradient-end
+);
+
+@use "links" with(
+  $text-link-color: theme.$text-link-color
+);
+
+html, body {
+  background-color: theme.$background-color;
+}

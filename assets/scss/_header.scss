@@ -1,0 +1,8 @@
+$hero-gradient-angle: 0 !default;
+$hero-gradient-start: #000 !default;
+$hero-gradient-end: #000 !default;
+
+.hero.is-primary.has-gradient {
+    background-image: linear-gradient($hero-gradient-angle, $hero-gradient-start 0%, $hero-gradient-end 100%);
+}
+  

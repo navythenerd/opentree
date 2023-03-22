@@ -1,0 +1,26 @@
+$text-link-color: #fff !default;  
+$text-link-size: 1.25rem !default;
+$link-button-margin-top: 1rem !default;
+
+#links {
+    .social-link {
+        margin-bottom: $link-button-margin-top;
+    }
+  
+    .button {
+        display: block;
+    }
+}
+
+.text-link {
+    font-size: $text-link-size;
+    color: $text-link-color !important;
+  
+    &:hover {
+        text-decoration: underline;
+    }
+  
+    &::after {
+        content: ' >';
+    }
+}

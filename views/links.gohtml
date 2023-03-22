@@ -1,0 +1,13 @@
+{{ define "links" }}
+<section class="section" id="links">
+    <div class="container">
+        {{ range .Links }}
+            {{ if .Enabled }}
+                <div class="social-link">
+                    <a class="button is-link is-rounded is-large" href="{{ .Url }}" target="_blank">{{ .Title }}</a>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,24 @@
+{
+  "name": "opentree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "watch": "gulp watch",
+    "build": "gulp buildStyles",
+    "prod": "gulp buildProdStyles"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.57.1"
+  }
+}
