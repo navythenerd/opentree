@@ -39,7 +39,7 @@ The colour scheme used for styling is located under `assets/scss/themes/_default
 ```
 
 ## Template
-The go backend uses the `template/html` package to parse and execute the given templates in the `views` directory. For layout changes a good starting point is the master template given with `views/master.gohtml`.
+The go backend uses the `html/template` package to parse and execute the given templates in the `views` directory. For layout changes a good starting point is the master template given with `views/master.gohtml`.
 
 ## CSS Framework & Further Theming
 Special thanks to the Bulma devs for providing the base css framework (https://github.com/jgthms/bulma).
