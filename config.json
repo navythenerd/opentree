@@ -25,18 +25,23 @@
         },
         {
             "enabled": true,
+            "title": "GitHub",
+            "url": "https://github.com/navythenerd"
+        },
+        {
+            "enabled": true,
             "title": "Instagram",
             "url": "https://www.instagram.com/navythenerd"
         },
         {
             "enabled": true,
-            "title": "TikTok",
-            "url": "https://www.tiktok.com/@navythenerd"
+            "title": "Twitch",
+            "url": "https://twitch.tv/navythenerd"
         },
         {
             "enabled": true,
-            "title": "Twitch",
-            "url": "https://twitch.tv/navythenerd"
+            "title": "TikTok",
+            "url": "https://www.tiktok.com/@navythenerd"
         }
     ]
 }
