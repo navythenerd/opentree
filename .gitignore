@@ -1,4 +1,5 @@
 go.tidy
+go.sum
 .vscode/
 static/
 node_modules/
