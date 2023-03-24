@@ -39,7 +39,7 @@
             "url": "https://twitch.tv/navythenerd"
         },
         {
-            "enabled": true,
+            "enabled": false,
             "title": "TikTok",
             "url": "https://www.tiktok.com/@navythenerd"
         }
