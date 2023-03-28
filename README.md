@@ -47,6 +47,3 @@ Have a look at their documentation for full customization.
 
 ## Deployment
 You can use the provided Dockerfile to deploy the application. If you have changed the default port `8000`, make sure to expose the right port.
-
-## License
-MIT licensed 2023 NavyTheNerd. See the LICENSE file for further details.
