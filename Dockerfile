@@ -6,8 +6,7 @@ RUN npm install && npm run prod
 FROM golang:1.20-alpine AS backend
 WORKDIR /app
 COPY . /app
-RUN go mod tidy
-RUN go build -o tree .
+RUN go mod tidy && go build -o tree .
 
 FROM alpine:latest
 COPY . /app
